@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.lr1.HelloController">
+  <VBox spacing="10" alignment="CENTER">
+    <ColorPicker fx:id="fillColorPicker" />
+    <ColorPicker fx:id="strokeColorPicker" />
+
+    <TextField fx:id="sizeField" promptText="Введите размер" />
+    <TextField fx:id="positionXField" promptText="Введите позицию X" />
+    <TextField fx:id="positionYField" promptText="Введите позицию Y" />
+
+    <Button text="Нарисовать квадрат" onAction="#drawSquare" />
+    <Button text="Нарисовать эллипс"  onAction="#drawEllipse" />
+    <Button text="Нарисовать прямоугольник" onAction="#drawRectangle" />
+    <Button text="Нарисовать круг" onAction="#drawCircle" />
+
+    <Button text="Очистить канвас" onAction="#clearCanvas" />
+
+    <Label fx:id="lastShapeLabel" text="Последняя фигура: " />
+    <Canvas fx:id="canvas" width="600" height="300" />
+  </VBox>
+</AnchorPane>
+
