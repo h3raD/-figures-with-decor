@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>Task2</artifactId>
+    <artifactId>Task8</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Task2</name>
+    <name>Task8</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.task2/com.example.task2.HelloApplication</mainClass>
+                            <mainClass>com.example.task8/com.example.task8.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
