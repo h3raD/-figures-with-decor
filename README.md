@@ -1,7 +1,7 @@
 # Фигуры с декором
 
 > [!IMPORTANT]
-## Содержание репозитория
+> Содержание репозитория
 - [x] Абстрактный суперкласс - [LR1](https://github.com/h3raD/-figures-with-decor/tree/Abstract-superclass)
 - [x] Фабличный метод - [LR2](https://github.com/h3raD/-figures-with-decor/tree/factory-method)
 - [x] Хранитель - [LR3](https://github.com/h3raD/-figures-with-decor/tree/keeper)
