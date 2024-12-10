@@ -1,2 +1,9 @@
-# Технология программирования
-Технология программирования - технология разработки программного средства, включающая все процессы, начиная с момента зарождения идеи этого средства. Результатом применения технологий программирования является программа, действующая в заданной вычислительной среде, хорошо отлаженная и документированная, доступная для понимания и развития в процессе сопровождения.
+# Фигуры с декором
+
+> [!IMPORTANT]
+## Содержание репозитория
+- [x] Абстрактный суперкласс - [LR1](https://github.com/h3raD/-figures-with-decor/tree/Abstract-superclass)
+- [x] Фабличный метод - [LR2](https://github.com/h3raD/-figures-with-decor/tree/factory-method)
+- [x] Хранитель - [LR3](https://github.com/h3raD/-figures-with-decor/tree/keeper)
+- [x] Прототип - [LR6](https://github.com/h3raD/-figures-with-decor/tree/prototype)
+- [x] Декоратор - [LR8](https://github.com/h3raD/-figures-with-decor/tree/decorator)
