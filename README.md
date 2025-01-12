@@ -16,7 +16,7 @@
 Может быть достаточно - в объекте реализовать интерфейс Cloneble.
 
 ## Диаграмма
-<img src="diagrama.png" />
+<img src="diagram3.png" />
 
 ### Результат
 ![task6](LR6.gif)
